@@ -3,83 +3,65 @@
     <head>
         <title>The Beatles.</title>
     </head>
-    <style>
-        table{
-            border: 1px solid;
-            margin: auto;
-            width: 366px;
-        }
-        td{
-            border: 1px solid;
-        }
-        tr{
-            border: 1px solid;
-        }
-        img{
-            align-items: center;
-        }
-        div{
-            text-align: center;
-        }
-        h1{
-            text-align: center;
-        }
-        h5{
-            text-align: center;
-        }
-        .boton{
-            text-align: center;
-        }
-    </style>
     <body>
 
         <h1>The Beatles</h1>
         <div>
 <img src="data:image/jpeg;base64,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" alt="">
         </div>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Nombre</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Something</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Hey Jude</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Come Together</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>1965</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>En mi vida</td>
-                </tr>
-            </tbody>
-        </table>
+        <div>
+            <p>
+                The Beatles fue una banda de rock​ inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular y de la música rock.
+            </p>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Something</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hey Jude</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Come Together</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>1965</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>En mi vida</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <br>
-        <h4>Miembros Princiaples</h4>
-        <ul>
-            <li>John Lennon</li>
-            <li>Paul McCartney</li>
-            <li>George Harrison</li>
-            <li>Ringo Starr</li>
-        </ul>
+        <div>
+            <h4>Miembros Princiaples</h4>
+            <ul>
+                <li>John Lennon</li>
+                <li>Paul McCartney</li>
+                <li>George Harrison</li>
+                <li>Ringo Starr</li>
+            </ul>
+        </div>
         <br>
-        <h5><a href="https://es.wikipedia.org/wiki/The_Beatles">Pagina oficial(Wikipedia)</a></h6>
+        <div>
+            <h5><a href="https://es.wikipedia.org/wiki/The_Beatles">Pagina oficial(Wikipedia)</a></h6>
+        </div>
         <br>
-        <div class="boton">
+        <div>
             <a href="main.html"><button>Regresar a la Pagina Principal</button></a>
         </div>
     </body>
